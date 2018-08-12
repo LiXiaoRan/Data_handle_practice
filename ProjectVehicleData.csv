@@ -1,4 +1,4 @@
-,equipmentTime,carCode,gpsValid,gpsLatitude,gpsLongitude,gpsSpeed,gpsDirection,gpsAltitude,oilLevel,oilLevelUnit,id
+index,equipmentTime,carCode,gpsValid,gpsLatitude,gpsLongitude,gpsSpeed,gpsDirection,gpsAltitude,oilLevel,oilLevelUnit,id
 0,2018-07-12T19:14:22,皖D74695,True,31.500310000000002,120.51668000000001,0.0,0.0,10.9,-1,mm,0
 1,2018-06-11T22:06:38,皖D74695,True,31.481630000000003,120.50237000000001,47.108000000000004,0.0,8.200000000000001,-1,mm,0
 2,2018-06-13T07:01:50,皖D74695,True,31.4903,120.51524,45.474000000000004,182.10000000000002,10.200000000000001,-1,mm,0
