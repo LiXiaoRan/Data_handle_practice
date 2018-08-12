@@ -4,10 +4,10 @@
   File Name：    DouglasPeuker
   Description :  道格拉斯-普克抽稀算法
   Author :        liran
-  date：          2017/8/16
+  date：          2018/8/12
 -------------------------------------------------
   Change Activity:
-                  2017/8/16: 道格拉斯-普克抽稀算法
+                  2018/8/12: 道格拉斯-普克抽稀算法
 -------------------------------------------------
 """
 from __future__ import division
