@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc08727e-c728-499b-bcf7-1d468fe8d389" name="Default" comment="">
+    <list default="true" id="cc08727e-c728-499b-bcf7-1d468fe8d389" name="Default" comment="道格拉斯-普克抽稀算法 针对渣土车完成">
+      <change afterPath="$PROJECT_DIR$/LimitVerticalDistance_algroim.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DouglasPeuker_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/DouglasPeuker_algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/numpyTest$pandas3_3.coverage" NAME="pandas3.3 Coverage Results" MODIFIED="1531985392872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
+    <SUITE FILE_PATH="coverage/numpyTest$LimitVerticalDistance_algroim.coverage" NAME="LimitVerticalDistance_algroim Coverage Results" MODIFIED="1534118171044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/numpyTest$numpyTest2_7.coverage" NAME="numpyTest2.7 Coverage Results" MODIFIED="1531967035378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/numpyTest$numpyTest2_3.coverage" NAME="numpyTest2.3 Coverage Results" MODIFIED="1531916802759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/numpyTest$numpyTest1.coverage" NAME="numpyTest1 Coverage Results" MODIFIED="1531545637102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -53,28 +54,29 @@
         <counts>
           <entry key="csv" value="7" />
           <entry key="json" value="6" />
-          <entry key="py" value="13" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="7" />
           <entry key="JSON" value="6" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="62" />
           <entry key="csv" value="6" />
-          <entry key="py" value="719" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="746" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="6" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="719" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="808" />
         </counts>
       </usages-collector>
     </session>
@@ -129,23 +131,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DouglasPeuker_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding>
-                <element signature="e#352#383#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1301">
+              <caret line="17" column="8" selection-start-line="17" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectVehicleData.csv">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LimitVerticalDistance_algroim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="28" selection-end-column="36" />
+            <state relative-caret-position="418">
+              <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+              <folding>
+                <element signature="e#345#376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,6 +217,7 @@
         <option value="$PROJECT_DIR$/ProjectVehicleData.csv" />
         <option value="$PROJECT_DIR$/ProjectVehicleData2new.csv" />
         <option value="$PROJECT_DIR$/DouglasPeuker_algorithm.py" />
+        <option value="$PROJECT_DIR$/LimitVerticalDistance_algroim.py" />
       </list>
     </option>
   </component>
@@ -286,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DouglasPeuker_algorithm">
+  <component name="RunManager" selected="Python.LimitVerticalDistance_algroim">
     <configuration name="DouglasPeuker_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,6 +304,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DouglasPeuker_algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LimitVerticalDistance_algroim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="numpyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LimitVerticalDistance_algroim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -397,43 +422,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sanitizer_reptile3_succeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="numpyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanitizer_reptile3_succeed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.numpyTest2" />
       <item itemvalue="Python.pandas3.7" />
-      <item itemvalue="Python.sanitizer_reptile3_succeed" />
       <item itemvalue="Python.dealDATA" />
       <item itemvalue="Python.csv2json" />
       <item itemvalue="Python.DouglasPeuker_algorithm" />
+      <item itemvalue="Python.LimitVerticalDistance_algroim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LimitVerticalDistance_algroim" />
         <item itemvalue="Python.DouglasPeuker_algorithm" />
         <item itemvalue="Python.csv2json" />
         <item itemvalue="Python.pandas3.7" />
         <item itemvalue="Python.dealDATA" />
-        <item itemvalue="Python.sanitizer_reptile3_succeed" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534076021249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="道格拉斯-普克抽稀算法 针对渣土车完成">
+      <created>1534083742917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534083742917</updated>
+    </task>
+    <task id="LOCAL-00003" summary="没改">
+      <created>1534085663116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534085663116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -471,19 +488,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37785017" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37785017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921347" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32790446" />
+      <window_info anchor="bottom" id="Python Console" order="9" visible="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -525,7 +542,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="没改什么" />
-    <option name="LAST_COMMIT_MESSAGE" value="没改什么" />
+    <MESSAGE value="道格拉斯-普克抽稀算法 针对渣土车完成" />
+    <MESSAGE value="没改" />
+    <option name="LAST_COMMIT_MESSAGE" value="没改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/countries_1990_2015.csv">
@@ -738,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectVehicleData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sum_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -782,10 +794,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DouglasPeuker_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="-1301">
+          <caret line="17" column="8" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectVehicleData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123249">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LimitVerticalDistance_algroim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="76" column="10" lean-forward="true" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
           <folding>
-            <element signature="e#352#383#0" expanded="true" />
+            <element signature="e#345#376#0" expanded="true" />
           </folding>
         </state>
       </provider>
