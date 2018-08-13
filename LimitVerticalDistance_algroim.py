@@ -3,7 +3,7 @@
 -------------------------------------------------
   File Name：    LimitVerticalDistance
   Description :  垂距限值抽稀算法
-  Author :        J_hao
+  Author :        liran
   date：          2017/8/17
 -------------------------------------------------
   Change Activity:
@@ -17,9 +17,9 @@ from math import sqrt, pow
 import pandas as pd
 
 
-__author__ = 'J_hao'
+__author__ = 'liran'
 
-THRESHOLD = 0.0009  # 阈值
+THRESHOLD = 0.009  # 阈值
 
 
 def point2LineDistance(point_a, point_b, point_c):
@@ -70,7 +70,7 @@ class LimitVerticalDistance(object):
 if __name__ == '__main__':
     l = LimitVerticalDistance()
 
-    data = pd.read_csv('ProjectVehicleData2.csv')
+    data = pd.read_csv('ProjectVehicleData0813.csv')
     df = pd.DataFrame(data=data)
 
     var = df[['gpsLongitude', 'gpsLatitude']][df.gpsValid == 'True']
