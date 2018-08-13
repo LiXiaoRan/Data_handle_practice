@@ -19,7 +19,7 @@ import pandas as pd
 
 __author__ = 'J_hao'
 
-THRESHOLD = 0.009  # 阈值
+THRESHOLD = 0.0009  # 阈值
 
 
 def point2LineDistance(point_a, point_b, point_c):
